@@ -5,10 +5,10 @@
 	(uuid "1ac11323-c771-4a76-9fcd-d7f0e4f03279")
 	(paper "A4")
 	(title_block
-		(title "Bully2040")
+		(title "Col-bully2040")
 		(date "2023-06-23")
-		(rev "0.2")
-		(company "sporkus")
+		(rev "0.1")
+		(company "ihsinoky")
 		(comment 1 "adding alps and layout options")
 	)
 	(lib_symbols

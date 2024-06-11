@@ -1,0 +1,133 @@
+(footprint "TopPlate_LedHole2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resitance 3 pas")
+	(tags "R")
+	(property "Reference" "**"
+		(at 0.05 -0.08 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a17706c9-d664-4a6c-9ce4-f68f752607a8")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Hole_R"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "12fd1c56-b270-4f32-ae0d-6c82a3f373a6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Footprint" "TopPlate_LedHole2"
+		(at 0.07 1.66 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d9ca3c5-cd98-428b-b0bd-4c0b056a2078")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b87a1e4d-cc32-4c7d-8d60-e6109b4a1715")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8758460f-1008-4a7a-9ac1-9121a867a83b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.8 -0.7)
+		(end 1.8 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b85da792-c736-4042-ad5e-adbee9af1eeb")
+	)
+	(fp_line
+		(start -1.8 0.7)
+		(end 1.8 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2fcd173-02c5-4809-a5c8-01545b3d411c")
+	)
+	(fp_arc
+		(start -1.8 0.7)
+		(mid -2.5 0)
+		(end -1.8 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d38abdf3-321c-4444-bdd1-119659174de3")
+	)
+	(fp_arc
+		(start 1.8 -0.7)
+		(mid 2.5 0)
+		(end 1.8 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee27a493-3cee-4a13-b461-6652fbdb7acf")
+	)
+	(model "discret/resistor.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3 0.3 0.3)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.2 0.2 0.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
